@@ -13,7 +13,31 @@
 	</head>
 	<body>
 		<div class="cursor"></div>
-		<h1>partizan--fam</h1>
+		<div class="container">
+			<div class="column-container">
+				<div class="column">
+					<h1 class="column-title">Todo</h1>
+					<button class="add-item-btn" onclick="addItem(this)">Add Item</button>
+					<div class="item" draggable="true">Todo #1</div>
+					<div class="item" draggable="true">Todo #2</div>
+					<div class="item" draggable="true">Todo #3</div>
+				</div>
+				<div class="column">
+					<h1 class="column-title">In Progress</h1>
+					<button class="add-item-btn" onclick="addItem(this)">Add Item</button>
+					<div class="item" draggable="true">IP #1</div>
+					<div class="item" draggable="true">IP #2</div>
+					<div class="item" draggable="true">IP #3</div>
+				</div>
+				<div class="column">
+					<h1 class="column-title">Done</h1>
+					<button class="add-item-btn" onclick="addItem(this)">Add Item</button>
+					<div class="item" draggable="true">Done #1</div>
+					<div class="item" draggable="true">Done #2</div>
+					<div class="item" draggable="true">Done #3</div>
+				</div>
+			</div>
+		</div>
 		<script src="app.js"></script>
 	</body>
 </html>
